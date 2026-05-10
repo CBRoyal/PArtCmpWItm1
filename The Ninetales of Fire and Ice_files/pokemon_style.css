@@ -61,13 +61,13 @@ nav{
     position: initial;
     left: 100px;
     top: 150;
-    text-shadow: 2px 2px #0000ff;
-    color:#da70d6;
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
+    color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
 }
 #price{
-    text-shadow: 2px 2px #0000ff;
-    color:#da70d6;
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
+    color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
 }
 #ninetalesDescription, #bondDescription{
