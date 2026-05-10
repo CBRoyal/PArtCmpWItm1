@@ -71,12 +71,12 @@ nav{
     font-size: 30pt;
 }
 #ninetalesDescription, #bondDescription{
-    background-color: #ffebcd;
+    background-color: var(--pokemon-art-shopping-website-box-bg-color);
     padding:15px 10px;
-    color:#8b4513;
+    color: var(--pokemon-art-shopping-website-box-color);
     font-family:Brush Script MT, Brush Script Std, cursive;
     font-size:105 pt;
-    border:5px solid #800008;
+    border:5px solid var(--pokemon-art-shopping-website-box-border-color);
 }
 #email{
     text-shadow: 2px 2px #ffff00;
