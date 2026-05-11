@@ -68,7 +68,6 @@ nav{
 #home::after{
     content: "";
     position: absolute;
-    float: left;
     left: -8%;
     bottom: -2px;
     width: 100%;
