@@ -1,6 +1,7 @@
 :root{
     --pokemon-art-shopping-website-title-shadow-color: #0000ff;
     --pokemon-art-shopping-website-title-color: #da70d6;
+    --pokemon-art-shopping-website-paintbrush-stroke-color: #008000;
     --pokemon-art-shopping-website-title-border-color: #ff0000;
     --pokemon-art-shopping-website-main-navbar-link-color: #000000;
     --pokemon-art-shopping-website-main-navbar-link-hover-color: #ffffff;
@@ -58,28 +59,41 @@ nav{
     border: 5px solid #808000;
 }
 #home{
-    position: initial;
+    position: relative;
+    display: inline-flex;
     left: 100px;
     top: 150;
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
 }
-#home::after{
-    content: "";
-    position: absolute;
-    left: -8%;
-    bottom: -2px;
-    width: 100%;
-    height: 45%;
-    background: url("brush-stroke.svg") no-repeat center/cover;
-    z-index: -1;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.5s ease;
+.stroking-paintbrush{
+    width: 220px;
+    height: 60px;
+    overflow: visible;
 }
-#home:hover::after{
-    transform: scaleX(1);
+.paint-stroke{
+    fill: none;
+    stroke: var(--pokemon-art-shopping-website-paintbrush-stroke-color);
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    transition: stroke-dashoffset 0.5s ease;
+}
+.paintbrush{
+    transform-box: fill-box;
+    transform-origin: center;
+    opacity: 0;
+    transition: opacity 0.2s ease,
+                transform 0.5s ease;
+}
+#home:hover .paint-stroke{
+    stroke-dashoffset: 0;
+}
+#home:hover .paintbrush{
+    opacity: 1;
+    animation: brushStroke 0.5s ease forwards;
 }
 #price{
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
@@ -126,4 +140,11 @@ nav{
 #bonding{
     background-color:#87cefa;
     color:#ffff00;
+}
+@keyframes brushStroke{
+    0%{transform: translate(15px, 45px) rotate(-13deg);}
+    25%{transform: translate(70px, 15px) rotate(10deg);}
+    50%{transform: translate(15px, 45px) rotate(-13deg);}
+    75%{transform: translate(70px, 15px) rotate(10deg);}
+    100%{transform: translate(15px, 45px) rotate(-13deg);}
 }
