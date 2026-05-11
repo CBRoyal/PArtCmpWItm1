@@ -65,7 +65,7 @@ nav{
     color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
 }
-#home::after{
+#home::before{
     content: "";
     position: absolute;
     left: -8%;
@@ -78,7 +78,7 @@ nav{
     transform-origin: left;
     transition: transform 0.5s ease;
 }
-#home:hover::after{
+#home:hover::before{
     transform: scaleX(1);
 }
 #price{
