@@ -78,6 +78,9 @@ nav{
     transform-origin: left;
     transition: transform 0.5s ease;
 }
+#home:hover::after{
+    transform: scaleX(1);
+}
 #price{
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     color: var(--pokemon-art-shopping-website-title-color);
