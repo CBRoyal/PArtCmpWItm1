@@ -1,7 +1,9 @@
 :root{
     --pokemon-art-shopping-website-title-shadow-color: #0000ff;
     --pokemon-art-shopping-website-title-color: #da70d6;
-    --pokemon-art-shopping-website-paintbrush-stroke-color: #008000;
+    --pokemon-art-shopping-website-smeargle-tail-color: #7a5a2f;
+    --pokemon-art-shopping-website-smeargle-tail-tip-color: #2f9ed1;
+    --pokemon-art-shopping-website-smeargle-tail-tip-box-shadow-color: #1d6f94;
     --pokemon-art-shopping-website-title-border-color: #ff0000;
     --pokemon-art-shopping-website-main-navbar-link-color: #000000;
     --pokemon-art-shopping-website-main-navbar-link-hover-color: #ffffff;
@@ -66,6 +68,34 @@ nav{
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
+}
+.smeargle-wrap{
+    position: relative;
+    width: 90px;
+    height: 70px;
+}
+.smeargle-tail{
+    position: absolute;
+    width: 56px;
+    height: 10px;
+    background: var(--pokemon-art-shopping-website-smeargle-tail-color);
+    border-radius: 999px;
+    left: 42px;
+    top: 30px;
+    transform-origin: left center;
+    transition: transform 0.15s linear;
+}
+.smeargle-tail-tip{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: var(--pokemon-art-shopping-website-smeargle-tail-tip-color);
+    border-radius: 50%;
+    right: -8px;
+    top: -4px;
+    box-shadow:
+      0 0 0 3px var(--pokemon-art-shopping-website-smeargle-tail-tip-box-shadow-color) inset,
+      0 0 12px rgba(47, 158, 209, 0.35);
 }
 .stroking-paintbrush{
     width: 220px;
