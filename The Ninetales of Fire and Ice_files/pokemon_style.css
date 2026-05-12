@@ -97,6 +97,31 @@ nav{
       0 0 0 3px var(--pokemon-art-shopping-website-smeargle-tail-tip-box-shadow-color) inset,
       0 0 12px rgba(47, 158, 209, 0.35);
 }
+.paint-drops{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: var(--pokemon-art-shopping-website-smeargle-tail-tip-color);
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;       
+}
+.paint-drop1{
+    right: -4px;
+    top: 18px;
+}
+.paint-drop2{
+    right: 6px;
+    top: 34px;
+}
+.paint-drop3{
+    right: 12px;
+    top: 22px;
+}
+.paint-drop4{
+    right: 22px;
+    top: 38px;
+}
 #price{
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     color: var(--pokemon-art-shopping-website-title-color);
