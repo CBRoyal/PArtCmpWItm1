@@ -122,6 +122,21 @@ nav{
     right: 22px;
     top: 38px;
 }
+#home:hover .smeargle-tail{
+    animation: tailWhip 0.7s ease-in-out infinite alternate;
+}
+#home:hover .paint-drop1{
+    animation: paintSplat1 0.8s ease-out infinite;
+}
+#home:hover .paint-drop2{
+    animation: paintSplat2 0.8s ease-out infinite 0.1s;
+}
+#home:hover .paint-drop3{
+    animation: paintSplat3 0.8s ease-out infinite 0.2s;
+}
+#home:hover .paint-drop4{
+    animation: paintSplat4 0.8s ease-out infinite 0.3s;
+}
 #price{
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     color: var(--pokemon-art-shopping-website-title-color);
@@ -167,4 +182,28 @@ nav{
 #bonding{
     background-color:#87cefa;
     color:#ffff00;
+}
+@keyframes tailWhip{
+    0%{transform: rotate(-18deg);}
+    100%{transform: rotate(18deg);}
+}
+@keyframes paintSplat1{
+    0%{opacity: 0; transform: translate(0,0) scale(0.2);}
+    20%{opacity: 1;}
+    100%{opacity: 0; transform: translate(36px, -26px) scale(1)}
+}
+@keyframes paintSplat2{
+    0%{opacity: 0; transform: translate(0,0) scale(0.2);}
+    20%{opacity: 1;}
+    100%{opacity: 0; transform: translate(42px, 8px) scale(0.8)}  
+}
+@keyframes paintSplat3{
+    0%{opacity: 0; transform: translate(0,0) scale(0.2);}
+    20%{opacity: 1;}
+    100%{opacity: 0; transform: translate(52px, -12px) scale(1.2)}  
+}
+@keyframes paintSplat4{
+    0%{opacity: 0; transform: translate(0,0) scale(0.2);}
+    20%{opacity: 1;}
+    100%{opacity: 0; transform: translate(64px, 8px) scale(1)}  
 }
