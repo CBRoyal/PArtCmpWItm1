@@ -80,7 +80,7 @@ nav{
     height: 10px;
     background: var(--pokemon-art-shopping-website-smeargle-tail-color);
     border-radius: 999px;
-    left: 42px;
+    left: 12px;
     top: 30px;
     transform-origin: left center;
     transition: transform 0.15s linear;
