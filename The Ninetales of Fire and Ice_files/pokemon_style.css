@@ -107,19 +107,19 @@ nav{
     pointer-events: none;       
 }
 .paint-drop1{
-    right: -4px;
+    right: 4px;
     top: 18px;
 }
 .paint-drop2{
-    right: 6px;
+    right: 14px;
     top: 34px;
 }
 .paint-drop3{
-    right: 12px;
+    right: 20px;
     top: 22px;
 }
 .paint-drop4{
-    right: 22px;
+    right: 30px;
     top: 38px;
 }
 #home:hover .smeargle-tail{
@@ -154,34 +154,6 @@ nav{
     text-shadow: 2px 2px #ffff00;
     font-size: 20pt;
     color:#00ffff;
-}
-#ninetales{
-    background-color: #00ffff;
-    color:#ff4500;
-}
-#northernLights{
-    background-color:#00008b;
-    color:#00ffff;
-}
-#family{
-    background-color:#d2691e;
-    color:#daa520;
-}
-#autumn{
-    background-color: #ff4500;
-    color:#cd853f;
-}
-#hq{
-    background-color:#696969;
-    color:#7cfc00;
-}
-#playPark{
-    background-color:#7cfc00;
-    color:#fa8072;
-}
-#bonding{
-    background-color:#87cefa;
-    color:#ffff00;
 }
 @keyframes tailWhip{
     0%{transform: rotate(-18deg);}
