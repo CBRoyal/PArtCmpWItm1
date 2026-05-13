@@ -64,6 +64,7 @@ p, li{
     color: var(--pokemon-art-shopping-website-title-color);
     background-color: var(--pokemon-art-shopping-website-box-bg-color);
     border: 5px solid var(--pokemon-art-shopping-website-contact-section-border-color);
+    margin-bottom: 5px;
 }
 #home{
     grid-area: home-link;
