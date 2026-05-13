@@ -76,7 +76,7 @@ p, li{
     color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
 }
-.smeargle-wrap{
+.smeargle-tail-wrap{
     position: relative;
     width: 90px;
     height: 70px;
