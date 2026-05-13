@@ -30,12 +30,11 @@ html{
 #pokemon-art-shopping-website-ninetales-webpage{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 10% 10% 10% 40% 20% 10%;
+    grid-template-rows: 10% 10% 50% 20% 10%;
     grid-template-areas:
     "home-link home-link"
     "title title"
-    "image price"
-    "image purchase-button"
+    "image purchase"
     "description description"
     "contact contact";
 }
@@ -143,14 +142,15 @@ p, li{
 #home:hover .paint-drop4{
     animation: paintSplat4 0.8s ease-out infinite 0.3s;
 }
+#purchaseBox{
+    grid-area: purchase;
+}
 #price{
-    grid-area: price;
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
 }
 .pokemon-art-shopping-website-purchase-buttons{
-    grid-area: purchase-button;
     padding: 20px 15px;
     font-family: Brush Script MT, Brush Script Std, cursive;
     background: url("rainbow_background.jpg");
