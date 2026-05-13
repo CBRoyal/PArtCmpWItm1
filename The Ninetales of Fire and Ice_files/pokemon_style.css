@@ -49,32 +49,21 @@ h1{
 p, li{
     font-size:20pt;
 }
-#header{
-    text-shadow: 2px 2px #0000ff;
-    font-size: 50pt;
-    color:#da70d6;
-}
-nav{
-    text-shadow: 1px 0px #ffa500;
-    font-size: 20pt;
-    border: 5px solid #fa8072;
-}
 #the-ninetales-of-fire-and-ice-artpiece{
     grid-area: image;
 }
-#description, #special,#artpieces{
-    background-color: #ffebcd;
-    padding:15px 10px;
-    color:#8b4513;
-    font-family:Brush Script MT, Brush Script Std, cursive;
-    font-size:65 pt;
-    border:5px solid #800008;
+.pokemon-art-shopping-website-headers{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30pt;
+    color: var(--pokemon-art-shopping-website-title-color);
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
 }
 #contact{
-    text-shadow: 2px 2px #0000ff;
+    grid-area: contact;
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     font-size: 20pt;
-    color:#da70d6;
-    border: 5px solid #808000;
+    color: var(--pokemon-art-shopping-website-title-color);
+    border: 5px solid var(--pokemon-art-shopping-website-contact-section-border-color);
 }
 #home{
     grid-area: home-link;
@@ -171,14 +160,14 @@ nav{
     background-color: var(--pokemon-art-shopping-website-box-bg-color);
     padding:15px 10px;
     color: var(--pokemon-art-shopping-website-box-color);
-    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-family: Brush Script MT, Brush Script Std, cursive;
     font-size:105pt;
     border:5px solid var(--pokemon-art-shopping-website-box-border-color);
 }
 #email{
-    text-shadow: 2px 2px #ffff00;
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-email-and-storage-link-shadow-color);
     font-size: 20pt;
-    color:#00ffff;
+    color: var(--pokemon-art-shopping-website-email-and-storage-link-color);
 }
 @keyframes tailWhip{
     0%{transform: rotate(-18deg);}
