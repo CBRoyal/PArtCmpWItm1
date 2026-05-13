@@ -54,7 +54,7 @@ p, li{
 }
 .pokemon-art-shopping-website-headers{
     font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 25px;
+    font-size: 30px;
     color: var(--pokemon-art-shopping-website-title-color);
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
 }
