@@ -59,6 +59,9 @@ nav{
     font-size: 20pt;
     border: 5px solid #fa8072;
 }
+#the-ninetales-of-fire-and-ice-artpiece{
+    grid-area: image;
+}
 #description, #special,#artpieces{
     background-color: #ffebcd;
     padding:15px 10px;
