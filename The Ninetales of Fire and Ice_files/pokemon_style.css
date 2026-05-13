@@ -30,7 +30,7 @@ html{
 #pokemon-art-shopping-website-ninetales-webpage{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 10% 10% 50% 20% 10%;
+    grid-template-rows: 5% 10% 55% 20% 10%;
     grid-template-areas:
     "home-link home-link"
     "title title"
