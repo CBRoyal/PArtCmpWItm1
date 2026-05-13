@@ -60,8 +60,9 @@ p, li{
 #contact{
     grid-area: contact;
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
-    font-size: 20pt;
+    font-size: 20pt;    
     color: var(--pokemon-art-shopping-website-title-color);
+    background-color: var(--pokemon-art-shopping-website-box-bg-color);
     border: 5px solid var(--pokemon-art-shopping-website-contact-section-border-color);
 }
 #home{
