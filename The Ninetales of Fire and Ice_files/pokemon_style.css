@@ -155,7 +155,9 @@ p, li{
 .pokemon-art-shopping-website-purchase-buttons{
     padding: 20px 15px;
     font-family: Brush Script MT, Brush Script Std, cursive;
-    background: url("rainbow_background.jpg");
+    background-image: url("rainbow_background.jpg");
+    background-size: cover;
+    background-position: center;
     border: 5px solid var(--pokemon-art-shopping-website-purchase-buttons-border-color)
 }
 #ninetalesDescription{
