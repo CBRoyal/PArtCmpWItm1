@@ -6,7 +6,7 @@
     --pokemon-art-shopping-website-smeargle-tail-tip-box-shadow-color: #1d6f94;
     --pokemon-art-shopping-website-title-border-color: #ff0000;
     --pokemon-art-shopping-website-main-navbar-link-color: #000000;
-    --pokemon-art-shopping-website-main-navbar-link-hover-color: #ffffff;
+    --pokemon-art-shopping-website-purchase-buttons-border-color: #ffffff;
     --pokemon-art-shopping-website-nav-shadow-color: #ffa500;
     --pokemon-art-shopping-website-nav-border-color: #fa8072;
     --pokemon-art-shopping-website-box-bg-color: #ffebcd; 
@@ -156,6 +156,12 @@ nav{
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
+}
+.pokemon-art-shopping-website-purchase-buttons{
+    grid-area: purchase-button;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    background: url("rainbow_background.jpg");
+    border: 5px solid var(--pokemon-art-shopping-website-purchase-buttons-border-color)
 }
 #ninetalesDescription{
     grid-area: description;
