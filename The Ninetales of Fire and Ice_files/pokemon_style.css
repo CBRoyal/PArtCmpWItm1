@@ -14,7 +14,6 @@
     --pokemon-art-shopping-website-box-border-color: #800008;
     --pokemon-art-shopping-website-contact-section-border-color: #808000;
     --pokemon-art-shopping-website-email-and-storage-link-shadow-color: #ffff00;
-    --pokemon-art-shopping-website-email-and-storage-link-color: #00ffff;
     --pokemon-art-shopping-website-ninetales-section-color: #ff4500;
     --pokemon-art-shopping-website-northern-lights-section-bg-color: #00008b;
     --pokemon-art-shopping-website-family-section-bg-color: #d2691e;
@@ -173,7 +172,7 @@ p, li{
     border:5px solid var(--pokemon-art-shopping-website-box-border-color);
 }
 #email{
-    text-shadow: 1px 1px var(--pokemon-art-shopping-website-email-and-storage-link-shadow-color);
+    text-shadow: 1px 1px var(--pokemon-art-shopping-website-bonding-section-bg-color);
     font-size: 20pt;
     color: var(--pokemon-art-shopping-website-email-and-storage-link-color);
 }
