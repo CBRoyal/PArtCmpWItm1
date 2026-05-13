@@ -47,7 +47,7 @@ h1{
     border: 5px solid var(--pokemon-art-shopping-website-title-border-color);
 }
 p, li{
-    font-size:20pt;
+    font-size: 20pt;
 }
 #the-ninetales-of-fire-and-ice-artpiece{
     grid-area: image;
