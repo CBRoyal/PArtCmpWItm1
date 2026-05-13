@@ -151,6 +151,7 @@ p, li{
 }
 .pokemon-art-shopping-website-purchase-buttons{
     grid-area: purchase-button;
+    padding: 20px 15px;
     font-family: Brush Script MT, Brush Script Std, cursive;
     background: url("rainbow_background.jpg");
     border: 5px solid var(--pokemon-art-shopping-website-purchase-buttons-border-color)
