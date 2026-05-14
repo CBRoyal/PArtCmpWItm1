@@ -1,8 +1,8 @@
 :root{
     --pokemon-art-shopping-website-title-shadow-color: #0000ff;
     --pokemon-art-shopping-website-title-color: #da70d6;
-    --pokemon-art-shopping-website-smeargle-tail-color: #7a5a2f;
-    --pokemon-art-shopping-website-smeargle-tail-tip-color: #2f9ed1;
+    --pokemon-art-shopping-website-smeargle-tail-color: #8b6b4f;
+    --pokemon-art-shopping-website-smeargle-tail-tip-color: #27d96b;
     --pokemon-art-shopping-website-smeargle-tail-tip-box-shadow-color: #1d6f94;
     --pokemon-art-shopping-website-title-border-color: #ff0000;
     --pokemon-art-shopping-website-main-navbar-link-color: #000000;
@@ -82,46 +82,33 @@ p, li{
     overflow: visible
 }
 .smeargle-tail-group{
-    position: relative;
-    width: 90px;
-    height: 70px;
+    transform-origin: 40px 60px;
+    animation: tailWhip 2s ease-in-out infinite;
+}
+.tail{
+    fill: none;
+    stroke: var(--pokemon-art-shopping-website-smeargle-tail-color);
+    stroke-width: 18;
+    stroke-linecap: round;
 }
 .smeargle-tail-tip{
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    background: var(--pokemon-art-shopping-website-smeargle-tail-tip-color);
-    border-radius: 50%;
-    right: -8px;
-    top: -4px;
-    box-shadow:
-      0 0 0 3px var(--pokemon-art-shopping-website-smeargle-tail-tip-box-shadow-color) inset,
-      0 0 12px rgba(47, 158, 209, 0.35);
+    fill: var(--pokemon-art-shopping-website-smeargle-tail-tip-color); 
 }
 .paint-drops{
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background: var(--pokemon-art-shopping-website-smeargle-tail-tip-color);
-    border-radius: 50%;
-    opacity: 0;
-    pointer-events: none;       
+    fill: var(--pokemon-art-shopping-website-smeargle-tail-tip-color);
+    opacity: 0;      
 }
 .paint-drop1{
-    right: 4px;
-    top: 18px;
+    animation: paintDrip1 2s infinite;
 }
 .paint-drop2{
-    right: 14px;
-    top: 34px;
+    animation: paintDrip2 2s infinite;
 }
 .paint-drop3{
-    right: 20px;
-    top: 22px;
+    animation: paintDrip3 2s infinite;
 }
 .paint-drop4{
-    right: 30px;
-    top: 38px;
+    animation: paintDrip4 2s infinite;
 }
 #home:hover .smeargle-tail{
     animation: tailWhip 0.7s ease-in-out infinite alternate;
@@ -174,23 +161,23 @@ p, li{
     0%{transform: rotate(-18deg);}
     100%{transform: rotate(18deg);}
 }
-@keyframes paintSplat1{
-    0%{opacity: 0; transform: translate(0,0) scale(0.2);}
-    20%{opacity: 1;}
-    100%{opacity: 0; transform: translate(36px, -26px) scale(1)}
+@keyframes paintDrip1{
+    25%{opacity: 0; transform: translate(0,0) scale(1);}
+    50%{opacity: 1;}
+    100%{opacity: 0; transform: translate(36px, -26px) scale(0.5)}
 }
-@keyframes paintSplat2{
-    0%{opacity: 0; transform: translate(0,0) scale(0.2);}
-    20%{opacity: 1;}
-    100%{opacity: 0; transform: translate(42px, 8px) scale(0.8)}  
+@keyframes paintDrip2{
+    25%{opacity: 0; transform: translate(0,0) scale(1);}
+    50%{opacity: 1;}
+    100%{opacity: 0; transform: translate(28px, 23px) scale(0.8)}  
 }
-@keyframes paintSplat3{
-    0%{opacity: 0; transform: translate(0,0) scale(0.2);}
-    20%{opacity: 1;}
-    100%{opacity: 0; transform: translate(52px, -12px) scale(1.2)}  
+@keyframes paintDrip3{
+    25%{opacity: 0; transform: translate(0,0) scale(1);}
+    50%{opacity: 1;}
+    100%{opacity: 0; transform: translate(52px, -12px) scale(0.6)}  
 }
-@keyframes paintSplat4{
-    0%{opacity: 0; transform: translate(0,0) scale(0.2);}
-    20%{opacity: 1;}
-    100%{opacity: 0; transform: translate(64px, 8px) scale(1)}  
+@keyframes paintDrip4{
+    25%{opacity: 0; transform: translate(0,0) scale(1);}
+    50%{opacity: 1;}
+    100%{opacity: 0; transform: translate(64px, 8px) scale(0.4)}  
 }
