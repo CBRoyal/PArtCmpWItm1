@@ -69,28 +69,22 @@ p, li{
 #home{
     grid-area: home-link;
     position: relative;
-    display: inline-flex;
+    display: flex;
     left: 100px;
     top: 150;
+    gap: 12px;
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
 }
-.smeargle-tail-wrap{
+.smeargle-tail{
+    width: 80px;
+    overflow: visible
+}
+.smeargle-tail-group{
     position: relative;
     width: 90px;
     height: 70px;
-}
-.smeargle-tail{
-    position: absolute;
-    width: 56px;
-    height: 10px;
-    background: var(--pokemon-art-shopping-website-smeargle-tail-color);
-    border-radius: 999px;
-    left: 12px;
-    top: 30px;
-    transform-origin: left center;
-    transition: transform 0.15s linear;
 }
 .smeargle-tail-tip{
     position: absolute;
