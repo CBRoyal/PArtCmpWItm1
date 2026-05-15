@@ -70,6 +70,7 @@ p, li{
     grid-area: home-link;
     position: relative;
     display: flex;
+    align-items: center;
     left: 100px;
     top: 150;
     gap: 12px;
@@ -79,10 +80,18 @@ p, li{
 }
 .smeargle-tail{
     width: 80px;
-    overflow: visible
+    opacity: 0;
+    transition: 
+      opacity 0.25s ease,
+      transform 0.25s ease;
+}
+#home:hover .smeargle-tail{
+    opacity: 1;
 }
 .smeargle-tail-group{
     transform-origin: 40px 60px;
+}
+#home:hover .smeargle-tail-group{
     animation: tailWhip 2s ease-in-out infinite;
 }
 .tail{
