@@ -171,7 +171,8 @@ p, li{
 }
 @keyframes tailWhip{
     0%{transform: rotate(-18deg);}
-    100%{transform: rotate(18deg);}
+    50%{transform: rotate(18deg);}
+    100%{transform: rotate(-18deg);}
 }
 @keyframes paintDrip1{
     25%{opacity: 0; transform: translate(0,0) scale(1);}
