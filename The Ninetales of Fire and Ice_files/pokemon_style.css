@@ -107,7 +107,7 @@ p, li{
     fill: var(--pokemon-art-shopping-website-smeargle-tail-tip-color);
     opacity: 0;      
 }
-#home .paint-drops{
+#home:hover .paint-drops{
     opacity: 1;
 }
 .paint-drop1{
