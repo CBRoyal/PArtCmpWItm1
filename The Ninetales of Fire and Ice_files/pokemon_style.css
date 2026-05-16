@@ -177,4 +177,14 @@ p, li{
     h1{
         width: 80%;
     }
+    #the-ninetales-of-fire-and-ice-artpiece{
+        width: 90%;
+    }
+    #the-ninetales-of-fire-and-ice-artpiece-image{
+        width: 80%;
+        height: 90%;
+    }
+    #ninetalesDescription, #contact{
+        width: 85%;
+    }
 }
