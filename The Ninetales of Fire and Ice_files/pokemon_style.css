@@ -184,14 +184,16 @@ p, li{
     #the-ninetales-of-fire-and-ice-artpiece-image{
         width: 90%;
         height: 90%;
+        margin-top: 40px;
     }
     #purchaseBox{
+        margin-top: 20px;
         margin-right: 15px;
     }
     #ninetalesDescription, #contact{
         width: 90%;
     }
     #ninetalesDescription{
-        padding-bottom: 100px;
+        padding-bottom: 140px;
     }
 }
