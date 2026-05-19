@@ -198,6 +198,9 @@ p, li{
     }
 }
 @media (max-width: 500px){
+    #home{
+        margin-right: 55px;
+    }
     h1{
         width: 95%;
         height: 160%;
