@@ -189,6 +189,9 @@ p, li{
         margin-top: 35px;
         margin-right: 15px;
     }
+    #pokemon-art-shopping-website-purchase-button{
+        margin-right: 5px;
+    }
     h1, #ninetalesDescription{
         width: 90%;
     }
