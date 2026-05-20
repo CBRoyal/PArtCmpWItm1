@@ -222,7 +222,7 @@ p, li{
     }
     #purchaseBox{
         display: flex;
-        gap: 15px;
+        gap: 25px;
         margin-top: 25px;
         margin-right: 50px;
     }
