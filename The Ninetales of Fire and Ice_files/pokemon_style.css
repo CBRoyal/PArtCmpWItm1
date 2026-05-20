@@ -196,6 +196,9 @@ p, li{
         margin-top: 20px;
         padding-bottom: 140px;
     }
+    #contact{
+        margin-right: 10px;
+    }
 }
 @media (max-width: 500px){
     #pokemon-art-shopping-website-ninetales-webpage{
