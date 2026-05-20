@@ -230,10 +230,7 @@ p, li{
         margin-top: 35px;
         margin-right: 50px;
     }
-    #price{
-        margin-top: 40px;
-    }
-    #pokemon-art-shopping-website-purchase-button{
+    #price, #pokemon-art-shopping-website-purchase-button{
         margin-top: 45px;
     }
     #ninetalesDescription{
