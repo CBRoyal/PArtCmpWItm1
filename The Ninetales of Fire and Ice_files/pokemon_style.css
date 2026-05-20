@@ -231,5 +231,6 @@ p, li{
     }
     #contact{
         width: 95%;
+        padding-right: 35px;
     }
 }
