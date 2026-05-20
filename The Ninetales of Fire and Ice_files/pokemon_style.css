@@ -198,6 +198,17 @@ p, li{
     }
 }
 @media (max-width: 500px){
+    #pokemon-art-shopping-website-ninetales-webpage{
+        grid-template-columns: 100%;
+        grid-template-rows: 5% 10% 30% 5% 30% 20%;
+        grid-template-areas:
+        "home-link"
+        "title"
+        "image"
+        "purchase"
+        "description"
+        "contact";
+    }
     #home{
         margin-right: 55px;
     }
@@ -206,8 +217,8 @@ p, li{
         height: 160%;
     }
     #the-ninetales-of-fire-and-ice-artpiece-image{
-        margin-top: 40px;
-        width: 80%;
+        margin-top: 80px;
+        width: 90%;
     }
     #purchaseBox{
         margin-top: 25px;
