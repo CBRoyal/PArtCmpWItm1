@@ -200,7 +200,7 @@ p, li{
 @media (max-width: 500px){
     #pokemon-art-shopping-website-ninetales-webpage{
         grid-template-columns: 100%;
-        grid-template-rows: 5% 10% 30% 15% 30% 10%;
+        grid-template-rows: 5% 10% 35% 10% 30% 10%;
         grid-template-areas:
         "home-link"
         "title"
@@ -223,18 +223,18 @@ p, li{
     #purchaseBox{
         display: flex;
         gap: 35px;
-        margin-top: 28px;
+        margin-top: 35px;
         margin-right: 50px;
     }
     #pokemon-art-shopping-website-purchase-button{
-        margin-top: 40px;
+        margin-top: 45px;
     }
     #ninetalesDescription{
         margin-top: 35px;
         padding-bottom: 210px;
     }
     #contact{
-        width: 95%;
+        width: 90%;
         margin-top: 20px;
         padding-right: 35px;
     }
