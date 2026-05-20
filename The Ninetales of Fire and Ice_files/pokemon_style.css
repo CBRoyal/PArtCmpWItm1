@@ -125,7 +125,7 @@ p, li{
     color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
 }
-.pokemon-art-shopping-website-purchase-buttons{
+#pokemon-art-shopping-website-purchase-button{
     padding: 15px 50px;
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 25px;
@@ -225,6 +225,9 @@ p, li{
         gap: 25px;
         margin-top: 25px;
         margin-right: 50px;
+    }
+    #pokemon-art-shopping-website-purchase-button{
+        margin-top: 35px;
     }
     #ninetalesDescription{
         padding-bottom: 210px;
