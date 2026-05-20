@@ -229,4 +229,7 @@ p, li{
     #ninetalesDescription{
         padding-bottom: 210px;
     }
+    #contact{
+        width: 95%;
+    }
 }
