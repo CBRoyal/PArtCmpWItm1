@@ -221,6 +221,7 @@ p, li{
     }
     #the-ninetales-of-fire-and-ice-artpiece-image{
         margin-top: 140px;
+        margin-left: 15px;
         width: 90%;
     }
     #purchaseBox{
@@ -229,11 +230,15 @@ p, li{
         margin-top: 35px;
         margin-right: 50px;
     }
+    #price{
+        margin-top: 40px;
+    }
     #pokemon-art-shopping-website-purchase-button{
         margin-top: 45px;
     }
     #ninetalesDescription{
         margin-top: 35px;
+        margin-left: 10px;
         padding-bottom: 210px;
     }
     #contact{
