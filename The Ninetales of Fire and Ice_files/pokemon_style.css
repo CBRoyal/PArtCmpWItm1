@@ -221,6 +221,8 @@ p, li{
         width: 90%;
     }
     #purchaseBox{
+        display: flex;
+        gap: 15px;
         margin-top: 25px;
         margin-right: 50px;
     }
