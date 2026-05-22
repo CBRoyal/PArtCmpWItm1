@@ -73,9 +73,16 @@ p, li{
     width: 80px;
     overflow: visible;
 }
-.smeargle-tail-group{
-    transform-origin: 40px 60px;
-    animation: tailWhip 2s ease-in-out infinite;
+.smeargle-tail-wrap{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    opacity: 0;
+    transform: translateX(-10px) scale(0.8);
+    transition: 
+      opacity 0.25s ease,
+      transform 0.25 ease;
+    pointer-events: none;
 }
 .tail{
     fill: none;
