@@ -1,4 +1,4 @@
-gsap.to(".smeargle-tail-group", {
+gsap.to(".smeargle-tail-wrap", {
     rotate: 15,
     duration: 1,
     ease: "sine.inOut",
