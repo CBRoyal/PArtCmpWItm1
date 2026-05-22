@@ -57,6 +57,7 @@ p, li{
     color: var(--pokemon-art-shopping-website-title-color);
     background-color: var(--pokemon-art-shopping-website-box-bg-color);
     border: 5px solid var(--pokemon-art-shopping-website-contact-section-border-color);
+    padding-right: -75px;
     margin-top: 5px;
 }
 #home{
@@ -134,7 +135,6 @@ p, li{
     background-image: url("rainbow_background.jpg");
     background-size: cover;
     background-position: center;
-    padding-right: -75px;
     border: 5px solid var(--pokemon-art-shopping-website-purchase-buttons-border-color)
 }
 #ninetalesDescription{
@@ -144,6 +144,7 @@ p, li{
     color: var(--pokemon-art-shopping-website-box-color);
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 105pt;
+    padding-right: -75px;
     border: 5px solid var(--pokemon-art-shopping-website-box-border-color);
 }
 #email{
