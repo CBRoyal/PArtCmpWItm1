@@ -179,7 +179,7 @@ p, li{
 }
 @media (max-width: 800px){
     #home{
-        margin-right: 45px;
+        margin-left: 10px;
     }
     h1{
         height: 110%;
@@ -220,7 +220,7 @@ p, li{
         "contact";
     }
     #home{
-        margin-right: 55px;
+        margin-left: 5px;
     }
     h1{
         width: 95%;
