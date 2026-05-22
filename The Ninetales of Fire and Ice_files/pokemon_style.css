@@ -69,10 +69,6 @@ p, li{
     font-size: 30pt;
     overflow: visible;
 }
-.smeargle-tail{
-    width: 80px;
-    overflow: visible;
-}
 .smeargle-tail-wrap{
     width: 90px;
     height: 90px;
@@ -84,11 +80,13 @@ p, li{
       transform 0.25 ease;
     pointer-events: none;
 }
-.tail{
-    fill: none;
-    stroke: var(--pokemon-art-shopping-website-smeargle-tail-color);
-    stroke-width: 18;
-    stroke-linecap: round;
+#home:hover .smeargle-tail-wrap{
+    opacity: 1;
+    transform: translateX(0) scale(1);
+}
+.smeargle-tail{
+    transform-origin: 80% 20%;
+    animation: tailWhip 0.5s ease-in-out infininte alternate;
 }
 .smeargle-tail-tip{
     fill: var(--pokemon-art-shopping-website-smeargle-tail-tip-color); 
@@ -97,32 +95,17 @@ p, li{
     fill: var(--pokemon-art-shopping-website-smeargle-tail-tip-color);
     opacity: 0;      
 }
-.paint-drop1{
-    animation: paintDrip1 2s infinite;
-}
-.paint-drop2{
-    animation: paintDrip2 2s infinite;
-}
-.paint-drop3{
-    animation: paintDrip3 2s infinite;
-}
-.paint-drop4{
-    animation: paintDrip4 2s infinite;
-}
-#home:hover .smeargle-tail{
-    animation: tailWhip 0.7s ease-in-out infinite alternate;
-}
 #home:hover .paint-drop1{
-    animation: paintSplat1 0.8s ease-out infinite;
+    animation: paintSplat1 0.8s infinite;
 }
 #home:hover .paint-drop2{
-    animation: paintSplat2 0.8s ease-out infinite 0.1s;
+    animation: paintSplat2 0.8s infinite 0.1s;
 }
 #home:hover .paint-drop3{
-    animation: paintSplat3 0.8s ease-out infinite 0.2s;
+    animation: paintSplat3 0.8s infinite 0.2s;
 }
 #home:hover .paint-drop4{
-    animation: paintSplat4 0.8s ease-out infinite 0.3s;
+    animation: paintSplat4 0.8s infinite 0.3s;
 }
 #purchaseBox{
     grid-area: purchase;
