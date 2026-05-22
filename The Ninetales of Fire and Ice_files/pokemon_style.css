@@ -134,6 +134,7 @@ p, li{
     background-image: url("rainbow_background.jpg");
     background-size: cover;
     background-position: center;
+    padding-right: -75px;
     border: 5px solid var(--pokemon-art-shopping-website-purchase-buttons-border-color)
 }
 #ninetalesDescription{
