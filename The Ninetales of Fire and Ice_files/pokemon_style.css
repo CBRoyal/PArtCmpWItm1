@@ -106,16 +106,16 @@ p, li{
     opacity: 0;      
 }
 #home:hover .paint-drop1{
-    animation: paintSplat1 0.8s infinite;
+    animation: paintDrip1 0.8s infinite;
 }
 #home:hover .paint-drop2{
-    animation: paintSplat2 0.8s infinite 0.1s;
+    animation: paintDrip2 0.8s infinite 0.1s;
 }
 #home:hover .paint-drop3{
-    animation: paintSplat3 0.8s infinite 0.2s;
+    animation: paintDrip3 0.8s infinite 0.2s;
 }
 #home:hover .paint-drop4{
-    animation: paintSplat4 0.8s infinite 0.3s;
+    animation: paintDrip4 0.8s infinite 0.3s;
 }
 #purchaseBox{
     grid-area: purchase;
