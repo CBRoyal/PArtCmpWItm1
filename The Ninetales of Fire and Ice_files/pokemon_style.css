@@ -57,7 +57,7 @@ p, li{
     color: var(--pokemon-art-shopping-website-title-color);
     background-color: var(--pokemon-art-shopping-website-box-bg-color);
     border: 5px solid var(--pokemon-art-shopping-website-contact-section-border-color);
-    padding-right: -40px;
+    width: 90%;
     margin-top: 5px;
 }
 #home{
@@ -123,10 +123,11 @@ p, li{
 #ninetalesDescription{
     grid-area: description;
     background-color: var(--pokemon-art-shopping-website-box-bg-color);
-    padding: 15px -50px 15px 10px;
+    padding: 15px 10px;
     color: var(--pokemon-art-shopping-website-box-color);
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 105pt;
+    width: 90%;
     border: 5px solid var(--pokemon-art-shopping-website-box-border-color);
 }
 #email{
