@@ -129,7 +129,7 @@ p, li{
     font-size: 105pt;
     width: 90%;
     border: 5px solid var(--pokemon-art-shopping-website-box-border-color);
-    margin-left: 15px;
+    margin-left: 10px;
 }
 #email{
     text-shadow: 1px 1px var(--pokemon-art-shopping-website-email-shadow-color);
@@ -160,6 +160,7 @@ p, li{
     }
     #ninetalesDescription{
         margin-top: 20px;
+        margin-left: 5px;
         padding-bottom: 140px;
     }
     #contact{
