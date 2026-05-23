@@ -134,6 +134,7 @@ p, li{
 #email{
     text-shadow: 1px 1px var(--pokemon-art-shopping-website-email-shadow-color);
     font-size: 20pt;
+    margin-left: 5px;
     color: var(--pokemon-art-shopping-website-email-link-color);
 }
 @media (max-width: 800px){
