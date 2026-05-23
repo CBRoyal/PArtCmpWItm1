@@ -129,7 +129,7 @@ p, li{
     font-size: 105pt;
     width: 90%;
     border: 5px solid var(--pokemon-art-shopping-website-box-border-color);
-    margin-left: 10px;
+    margin-left: 20px;
 }
 #email{
     text-shadow: 1px 1px var(--pokemon-art-shopping-website-email-shadow-color);
