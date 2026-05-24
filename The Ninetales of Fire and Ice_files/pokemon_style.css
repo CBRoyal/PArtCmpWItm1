@@ -43,6 +43,7 @@ p, li{
 }
 #the-ninetales-of-fire-and-ice-artpiece{
     grid-area: image;
+    margin-left: 5px;
 }
 .pokemon-art-shopping-website-headers{
     font-family: Brush Script MT, Brush Script Std, cursive;
